@@ -260,6 +260,9 @@ For small screen
   width: 90vw;
 }
 
+#words{
+  width: 90vw;
+}
 #information{
   width:90vw;
 }
@@ -893,6 +896,10 @@ For big screen
   width: 300px;
 }
 #skills{
+  width: 40vw;
+}
+
+#words{
   width: 40vw;
 }
 
