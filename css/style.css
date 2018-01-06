@@ -300,6 +300,10 @@ For small screen
   width: 90vw;
 }
 
+#signature{
+  width: 35vw;
+}
+
 #skills{
   width: 90vw;
 }
@@ -957,6 +961,11 @@ For big screen
   border-radius: 50%;
   width: 300px;
 }
+
+#signature{
+  width: 10vw;
+}
+
 #skills{
   width: 40vw;
 }
@@ -1122,6 +1131,10 @@ body{
   width:50vw;
 }
 
+#signature{
+  width: 10vw;
+}
+
 #skills{
   width: 40vw;
 }
@@ -1132,7 +1145,7 @@ body{
 }
 
 #parallax.saturated{
-filter: contrast(160%);
+filter: blur(2px);
 }
 
 #nonparallax{
