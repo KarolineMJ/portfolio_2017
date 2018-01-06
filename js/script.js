@@ -29,7 +29,7 @@ function load(){
 	window.open("welcome.html", "_self");
 }
 
-
+/*
 function sendEmail() {
         var email = "mj.design@outlook.dk";
         var emne = "Questions about portfolio";
@@ -55,3 +55,4 @@ function sendEmail() {
 
         window.location = "mailto:" + email + "&subject=" + emne + "&body=" + "Navn: " + navn + ", email: " + emailAdresse + ", phone: " + phone + ", subject: " + subject + ", details: " + textToDesigner;
     }
+/*

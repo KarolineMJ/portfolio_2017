@@ -283,6 +283,10 @@ background: rgba(31,31,31,0.8);
 
 }
 
+#wrapperContact{
+  padding-top: 110px;
+}
+
 #portrait{
   border-radius: 50%;
   width: 300px;
@@ -904,7 +908,7 @@ For big screen
 }
 
 #information{
-  width:40vw;
+  width:30vw;
 }
 
 #programs{
@@ -1003,6 +1007,11 @@ For big screen
   padding-top: 110px;
 
 }
+
+#wrapperContact{
+  padding-top: 110px;
+}
+
 .container{
   z-index: 400;
 }
