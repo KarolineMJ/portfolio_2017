@@ -1070,13 +1070,14 @@ body{
 
 #parallax{
   display: block;
+
 }
 #nonparallax{
   display: none;
 }
 
 .keyart, .keyart_layer{
-  height: 1000px;
+  height: 57vw;
 }
 .keyart{
   position: relative;
@@ -1084,9 +1085,9 @@ body{
 }
 
 .keyart_layer{
-  background-position: bottom center;
-  background-size: auto 1038px;
+  background-size: 100vw;
   width: 100%;
+  background-repeat: repeat-x;
   position: absolute;
 }
 
