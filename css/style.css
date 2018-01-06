@@ -1,5 +1,7 @@
 body, html{
   height: 100%;
+
+
 }
 
 body{
@@ -45,6 +47,33 @@ a:active{
   padding-top:100px;
 }
 
+/*--------------------------------------------------------------
+Breadcrumbs
+--------------------------------------------------------------*/
+ul.breadcrumb {
+    max-width: 40em;
+    padding: 0 1em;
+    padding-top: 100px;
+    margin: 0 auto;
+    list-style: none;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
 
 /*--------------------------------------------------------------
 Cards:
@@ -89,6 +118,21 @@ Cards:
   width:100%;
 }
 
+#cardsBasicAnimation{
+  padding-top: 0;
+}
+
+#cardsBasicUX{
+  padding-top: 0;
+}
+
+#cardsBasicVideo{
+  padding-top: 0;
+}
+
+#cardsBasicWeb{
+  padding-top: 0;
+}
 
 /*--------------------------------------------------------------
 Input form
@@ -852,7 +896,14 @@ Social media buttons
     .cards a:hover {
       outline: 1px solid #3a3a3a;
     }
-  }
+    ul.breadcrumb {
+        max-width: 40em;
+        padding: 0 2em;
+        padding-top: 120px;
+        margin: 0 auto;
+        list-style: none;
+    }
+}
 
 
 
@@ -881,6 +932,13 @@ Social media buttons
       grid-column: span 1;
     }
 
+        ul.breadcrumb {
+        max-width: 40em;
+        padding: 0 2em;
+        padding-top: 120px;
+        margin-left: 8.3vw;
+        list-style: none;
+    }
   }
 }
 
@@ -1072,6 +1130,11 @@ body{
   display: block;
 
 }
+
+#parallax.saturated{
+filter: contrast(160%);
+}
+
 #nonparallax{
   display: none;
 }
@@ -1103,9 +1166,13 @@ body{
     background-image: url('../pictures/walking-man.gif');
 
   }
-  #keyart-2{
+
+  #keyart2{
     background-image: url('../pictures/parallax-2.1.png');
+
   }
+
+
   #keyart-3{
     background-image: url('../pictures/parallax-3.1.png');
   }

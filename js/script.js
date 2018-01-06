@@ -28,3 +28,11 @@ window.addEventListener('scroll', function(){
 function load(){
 	window.open("welcome.html", "_self");
 }
+
+let layerOne = document.getElementById('parallax');
+
+layerOne.addEventListener('click', makeItSaturated);
+
+function makeItSaturated(){
+    layerOne.classList.toggle('saturated')
+}
