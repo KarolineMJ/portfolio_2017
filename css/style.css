@@ -63,17 +63,9 @@ ul.breadcrumb li {
 }
 ul.breadcrumb li+li:before {
     padding: 8px;
-    color: black;
     content: "/\00a0";
 }
-ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-}
+
 
 /*--------------------------------------------------------------
 Cards:
@@ -257,7 +249,7 @@ For small screen
 
 @media screen and (max-width: 650px){
 #logo{
-  width: 35%;
+  width: 17%;
   float: left;
   margin-top: 6px;
 }
@@ -291,6 +283,13 @@ For small screen
   text-align: center;
 }
 
+#drowning{
+  display:none;
+}
+#drowning-small{
+  display: block;
+  width:100vw;
+}
 
 #programs{
   width: 40vw;
@@ -952,11 +951,20 @@ For big screen
 
 @media screen and (min-width: 650px) {
 #logo{
-  width: 175px;
+  width: 100px;
   float: left;
   margin-top: 6px;
 
 }
+
+#drowning{
+  width: 100vw;
+  display: block;
+}
+#drowning-small{
+  display: none;
+}
+
 #portrait{
   border-radius: 50%;
   width: 300px;
@@ -1087,6 +1095,7 @@ For big screen
   position: fixed;
   width: 100vw;
   z-index: 700;
+  height: 110px;
 }
 
 #navBar.scrolled{
@@ -1101,7 +1110,7 @@ background: rgba(31,31,31,0.1);
   display: block;
   right:0;
   position: fixed;
-  margin-top:30px;
+  margin-top: 40px;
   z-index: 300;
 
 }
