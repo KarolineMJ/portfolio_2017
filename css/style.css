@@ -922,14 +922,17 @@ Social media buttons
     }
 
     #skills{
-      width:70vw;
+      width:50vw;
     }
     #information{
-      width: 70vw;
+      width: 50vw;
     }
     #programs{
-  width: 70vw;
-}
+      width: 50vw;
+    }
+    #words{
+      width: 50vw;
+    }
 }
 
 
