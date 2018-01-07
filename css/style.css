@@ -247,7 +247,7 @@ fieldset {
 For small screen
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 555px){
 #logo{
   width: 17%;
   float: left;
@@ -288,7 +288,7 @@ For small screen
 }
 #drowning-small{
   display: block;
-  width:100vw;
+  width:95vw;
 }
 
 #programs{
@@ -949,7 +949,7 @@ Social media buttons
 For big screen
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 555px) {
 #logo{
   width: 100px;
   float: left;
@@ -958,7 +958,7 @@ For big screen
 }
 
 #drowning{
-  width: 100vw;
+  width: 97vw;
   display: block;
 }
 #drowning-small{
