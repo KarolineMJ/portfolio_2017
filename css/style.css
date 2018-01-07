@@ -935,6 +935,8 @@ Social media buttons
     #words{
       width: 50vw;
     }
+        #CV-box{
+  padding: 0 6em;}
 }
 
 
@@ -985,6 +987,8 @@ Social media buttons
       width:30vw;
       text-align: center;
     }
+        #CV-box{
+  padding: 0 10em;}
 
   }
 }
