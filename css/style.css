@@ -47,6 +47,17 @@ a:active{
   padding-top:100px;
 }
 
+#CV-text{
+  width:100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#CV-box{
+  width: 100%;
+}
+
+
 /*--------------------------------------------------------------
 Breadcrumbs
 --------------------------------------------------------------*/
@@ -305,13 +316,16 @@ For small screen
 
 #skills{
   width: 90vw;
+  text-align: center;
 }
 
 #words{
   width: 90vw;
+  text-align: center;
 }
 #information{
   width:90vw;
+  text-align: center;
 }
 
 #navBar{
@@ -906,6 +920,16 @@ Social media buttons
         margin: 0 auto;
         list-style: none;
     }
+
+    #skills{
+      width:70vw;
+    }
+    #information{
+      width: 70vw;
+    }
+    #programs{
+  width: 70vw;
+}
 }
 
 
@@ -942,6 +966,21 @@ Social media buttons
         margin-left: 8.3vw;
         list-style: none;
     }
+
+    #skills{
+      width: 30vw;
+      text-align: center;
+    }
+
+    #words{
+      width: 30vw;
+      text-align: center;
+    }
+    #information{
+      width:30vw;
+      text-align: center;
+    }
+
   }
 }
 
@@ -955,6 +994,9 @@ For big screen
   float: left;
   margin-top: 6px;
 
+}
+#me{
+  text-align: center;
 }
 
 #drowning{
@@ -972,25 +1014,26 @@ For big screen
 
 #signature{
   width: 10vw;
+  text-align: center;
 }
 
-#skills{
-  width: 40vw;
-}
 
-#words{
-  width: 40vw;
-}
 
-#information{
-  width:30vw;
-}
+
+
 
 #programs{
   width: 20vw;
 }
 .fa{
   width: 35px;
+}
+.photosAbout{
+  text-align: center;
+}
+
+#cardsAbout h1{
+  text-align: center;
 }
 
 #codePic, #penguin, #UXPic, #videoPic{
@@ -1144,9 +1187,7 @@ body{
   width: 10vw;
 }
 
-#skills{
-  width: 40vw;
-}
+
 
 #parallax{
   display: block;
