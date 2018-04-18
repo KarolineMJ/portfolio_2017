@@ -3,6 +3,16 @@ let scrollPos = window.scrollY;
 let navBar = document.getElementById('navBar');
 // selects the element by Id
 
+let myVar;
+
+function loaderThreeSec(){
+    myVar = setTimeout(showPage, 7000);
+}
+
+function showPage(){
+    document.querySelector("#section10").style.display="block";
+}
+
 function addClassOnScroll(){
 	navBar.classList.add("scrolled");
 }
@@ -17,9 +27,11 @@ window.addEventListener('scroll', function(){
 
 	if(scrollPos > 60){
 		addClassOnScroll();
+        document.querySelector("#section10").style.display="none";
 	}
 	else{
 		removeClassOnScroll();
+        document.querySelector("#section10").style.display="block";
 	}
 	console.log(scrollpos);
 
@@ -36,3 +48,4 @@ layerOne.addEventListener('click', makeItSaturated);
 function makeItSaturated(){
     layerOne.classList.toggle('saturated')
 }
+
