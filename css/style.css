@@ -1067,7 +1067,6 @@ For big screen
     position: absolute;
     min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
     z-index: 1;
     margin-top:10px;
 }
@@ -1078,11 +1077,13 @@ For big screen
     display: block;
     color: rgba(189, 189, 189, 1);
     position: relative;
+
 }
 
 .dropdownColor{
   background-color: #242424;
 }
+
 
 .dropdown-content a:before{
   content: "";
@@ -1157,7 +1158,7 @@ For big screen
 }
 
 #navBar.scrolled{
-background: rgba(36, 36, 36, 0.7);
+ background-color: #242424;
 
 }
 
